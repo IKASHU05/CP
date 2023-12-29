@@ -1,0 +1,1 @@
+{"name":"Local: isPowerOfTwo","url":"d:\\CP\\Practice\\isPowerOfTwo.py","tests":[{"id":1703875771194,"input":"5\n11\n4\n8\n16\n18","output":"NO\nYES\nYES\nYES\nNO"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\CP\\Practice\\isPowerOfTwo.py","group":"local","local":true}
