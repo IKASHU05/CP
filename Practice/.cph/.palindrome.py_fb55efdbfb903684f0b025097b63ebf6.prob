@@ -1,0 +1,1 @@
+{"name":"Local: palindrome","url":"d:\\CP\\Practice\\palindrome.py","tests":[{"id":1704298866516,"input":"123","output":"321"},{"id":1704298874055,"input":"213","output":"312"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\CP\\Practice\\palindrome.py","group":"local","local":true}

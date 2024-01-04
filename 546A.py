@@ -26,3 +26,50 @@ t = 1
 while t > 0:
     solve()
     t -= 1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    t = int(input())
+for _ in range(t):
+  n = int(input())
+
+  a = [int(x) for x in input().split()]
+  
+  a = sorted(a)
+
+  a[0]= a[0]+1
+  prod = 1
+
+  for num in a:
+    prod *= num
+  
+
+  print(prod)

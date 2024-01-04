@@ -1,0 +1,1 @@
+{"name":"Local: reverseNumber","url":"d:\\CP\\reverseNumber.py","tests":[{"id":1704289805398,"input":"123","output":"321"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\CP\\reverseNumber.py","group":"local","local":true}
