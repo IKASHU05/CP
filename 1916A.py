@@ -1,33 +1,13 @@
-import math
+n = 5
 
-def solve():
-    # If n and then array is given
-    n,k = [int(x) for x in input().split()]
-    b = [int(x) for x in input().split()]
+for i in range(1,n+1):
 
-    sum = 1
-    for i in b:
-        sum = sum * i
-
-
-    if 2023 % sum  != 0:
-        print("NO", end=" ")
-    elif 2023 % sum  == 0:
-        print("YES")
-        print(2023//sum, end=" ")
-        for i in range(k-1):
-            print("1",end=" ")
+    for j in range(1,i+1):
+        print("*", end="")
     
     print()
+for i in range(n-1,0,-1):
 
-    
-    
-
-
-
-t = 1
-t = int(input())
-
-while t > 0:
-    solve()
-    t -= 1
+    for j in range(1, i+1):
+        print("*", end="")
+    print()
