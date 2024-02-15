@@ -16,7 +16,6 @@ def solve():
     j
 
 
-
 t = 1
 # t = int(input())
 
