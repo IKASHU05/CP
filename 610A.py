@@ -12,13 +12,7 @@ def solve():
     elif n%4!=0:
         print(n//4)
         return
-    
-    
         
-        
-
-
-
 t = 1
 # t = int(input())
 
