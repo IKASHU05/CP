@@ -11,13 +11,12 @@ def solve():
         value= value + v[i]
     v.sort(reverse=True)
     i=0
-    while(cv<=value//):
+    while(cv<=value//2):
         
         cv=cv+v[i]
         i+=1
         coins+=1  
-        # print(value)
-        # print(coins)  
+          
         
         
     print(coins)
