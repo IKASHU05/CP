@@ -1,16 +1,15 @@
 def solve():
     # If n and then array is given
-    n = int(input())
-    arr = list(map(int, input().split()))
-    val = 1
-    for i in range(n):
-        for j in range(n):
-            for k in range(n):
-                for l in range(n):
-                    if len(set([i, j, k, l])) == 4:
-                        s= abs(arr[i] - arr[j]) + abs(arr[j] - arr[k]) + abs(arr[k] - arr[l]) + abs(arr[l] - arr[i])
-                        val = max(val, val)
-    print(val)
+    # n = int(input())
+    n,m = [int(x) for x in input().split()]
+    days = 1
+    while(n>0): 
+        if (days%m==0): n += 1
+        n -= 1
+        days += 1
+    print(days-1)
+     
+    
 t = 1
 # t = int(input())
 
